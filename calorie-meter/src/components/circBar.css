@@ -6,6 +6,7 @@
     display: flex;
     height: auto;
 }
+
 /*Apply the Oswald font to your elements */
 .welcome {
     color: rgb(15, 14, 14);
@@ -18,12 +19,10 @@
     border-radius: 80px;
     height: 120px;
     width: 750px;
-    
     font-size: 20px;
     padding-left: 52px;
     padding-top: 25px;
     font-weight: 550;
-    
 }
 
 .Wpic{
