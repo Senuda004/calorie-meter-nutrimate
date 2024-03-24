@@ -7,8 +7,8 @@ const CircularProgressBar = ({ goal, consumed, onConsumedChange }) => {
   const [showCongratulations, setShowCongratulations] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false); // New state to control confetti visibility
   const [caloriesToAddOrDeduct, setCaloriesToAddOrDeduct] = useState(0); // State to hold user input
-  const [size, setSize] = useState(380); // Size of the circle
-  const [strokeWidth, setStrokeWidth] = useState(30); // Width of the progress bar
+  const [size, setSize] = useState(300); // Size of the circle
+  const [strokeWidth, setStrokeWidth] = useState(20); // Width of the progress bar
   const [radius, setRadius] = useState(size / 2 - strokeWidth / 2); // Radius of the circle
   const normalizedProgress = consumed > goal ? goal : consumed; // Adjust progress based on the goal
   const circumference = 2 * Math.PI * radius;
@@ -124,9 +124,9 @@ const CircularProgressBar = ({ goal, consumed, onConsumedChange }) => {
       </svg>
       
       {showCongratulations && (
-        <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 1000 }}>
+        <div style={{ position: 'absolute', top: 0, left: 0, width: '50%', height: '100%', zIndex: 1000 }}>
           <Confetti />
-          <div style={{ position: 'absolute',width:'80%', top: '65%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center', fontSize: '2em', color: 'white' ,backgroundColor:'#FFC533',borderRadius:'50px'}}>
+          <div style={{ position: 'absolute',width:'80%', top: '55%', left:'120%' , transform: 'translate(-50%, -50%)', textAlign: 'center', fontSize: '20px', color: 'white' ,backgroundColor:'#FFC533',borderRadius:'50px'}}>
           Congratulations on reaching your daily goal! It's time to set another goal and keep up.
           </div>
         </div>

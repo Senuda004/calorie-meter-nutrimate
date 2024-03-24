@@ -1,36 +1,44 @@
 .head{
-   margin-left: 80px;
+   margin-left: 50vh;
    
 }
 .head h1{
    font-weight: 700;
-   font-size: 25px;
+   font-size: 20px;
+}
+.main{
+   display: flex;
+   margin-left: 180px;
 }
 .details p{
-    font-size: 15px;
+    font-size: 12px;
   }
 .details h6{
-   font-weight: 500;
+   font-weight: 400;
    margin-bottom: 12px;
    color:#8c8585;
 }
 
- 
- .menuIcon{
-    margin-left: 750px;
+
+.progress-bars{
+   margin-left: 120px;
+   margin-top: 80px;
+}
+.menuIcon{
+    margin-left: 350px;
     margin-top: 20px;
  }
 
 /*Product details */
 
 .product-list{
-   width: 600px;
+   width: 60px;
    height: 40px;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
    margin-top: 70px;
-   margin-left: 250px;
+   
   
 }
 .product-card{
@@ -40,11 +48,9 @@
    flex-wrap: wrap;
    justify-content: space-around;
    margin-top: 50px;
-   width: 980px;
+   width: 549px;
    border-radius: 80px;
-   padding-bottom: 130px;
-   padding: 10px;
-   margin-left: 250px;
+   
    box-shadow:
     0px 0px 6px 3px #FFC533, /* Bottom */
     0px 0px 5px 1px #FFC533; /* Left */
@@ -52,7 +58,7 @@
 }
 .product-card img{
    object-fit: cover;
-   width: 200px;
+   width: 100px;
    border-radius: 100%;
    margin-bottom: 10px;
    padding-bottom: 12px;
@@ -65,17 +71,17 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust shadow on hover (optional) 
 .details{
    width: 350px;
    height: 100px;
-   
    background-color: rgb(255, 255, 255);
 }
 .details h1{
-   font-weight: bold;
+   font-weight: 500;
    color:#201f1d;
    margin-bottom: 10px;
    margin-top: -25px;
 }
 .product-card h3{
    margin-bottom: 12px;
+   font-size: 13px;
 }
 @media screen and (max-width: 768px) {
 
@@ -108,21 +114,16 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust shadow on hover (optional) 
    align-items: center;
 }
 }
-.progress-bars {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   gap: 0.5px; /* Adjust as needed */
-  }
+
   
   .progress-bar {
-   width: 100%; /* Full width */
+   width: 200%; /* Full width */
    max-width: 600px; /* Maximum width */
   }
   
 
 .popup-box{
-   width: 100px;
+   width: 700px;
    height: 100px;
    margin-left: 10px;
    border-radius: 30px;

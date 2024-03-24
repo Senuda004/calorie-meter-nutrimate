@@ -62,10 +62,12 @@ const ProductCard = ({ product, onConsumedChange = () => {}, consumed}) => {
           onMouseOut={(e) => (e.currentTarget.style.transform = 'scale(1)')}
         />
         <div className='details'>
-          <h1>{product.brand} {product.name}</h1>
-          <h6>{product.category}</h6>
-          <h3>Calorie-per-serving: {product.nutrition.calories_per_serving}</h3>
           
+            <h1>{product.brand} {product.name}</h1>
+            <h6>{product.category}</h6>
+            <h3>Calorie-per-serving: {product.nutrition.calories_per_serving}</h3>
+        </div>  
+      </div>  
           <div className="progress-bars">
             
             {/* Protein Progress Bar */}
@@ -87,7 +89,7 @@ const ProductCard = ({ product, onConsumedChange = () => {}, consumed}) => {
             </div>
             
           </div>
-        </div>
+        
         
         {isPopupVisible && (
           <div className="popup-box">
@@ -106,7 +108,7 @@ const ProductCard = ({ product, onConsumedChange = () => {}, consumed}) => {
           </div>
         )}
       </div>
-    </div>
+    
   );
 };
 
