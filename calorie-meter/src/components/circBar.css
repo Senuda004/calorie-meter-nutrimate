@@ -18,9 +18,9 @@
     background-color: #ffffff;
     border-radius: 80px;
     height: 120px;
-    width: 750px;
-    margin-left: -90px;
-    font-size: 20px;
+    width: 650px;
+    margin-left: 120px;
+    font-size: 17px;
     padding-left: 52px;
     padding-top: 25px;
     font-weight: 550;
@@ -68,7 +68,7 @@ hr {
     margin-left: 8%;
     padding-top: 10px;
      font-weight: bold;
-     font-size: x-large;
+     font-size: 20px;
      white-space: pre;
 }
 
@@ -80,7 +80,7 @@ hr {
 /* Media query for larger screens */
 @media screen and (min-width: 1200px) {
     .topHed span {
-        font-size: 45px;
+        font-size: 25px;
     }
 }
 
