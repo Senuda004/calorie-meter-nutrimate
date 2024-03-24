@@ -65,8 +65,10 @@ hr {
     background-repeat: no-repeat; /* Adjust as needed 
 }*/
 .topHed span{
-    margin-left: 8%;
-    padding-top: 10px;
+  
+     position: relative;
+     top: 10%;
+     left: 30%;
      font-weight: bold;
      font-size: 20px;
      white-space: pre;
