@@ -1,0 +1,139 @@
+{
+    "products": [
+      { "id":"pro1",
+        "name": "Coca Cola",
+        "brand": "Coke",
+        "category": "Drink",
+        "nutrition": {
+          "calories_per_serving": 42,
+          "protein": 0,
+          "carbs": 10.6,
+          "fat": 0
+        },
+        
+        "image": "https://i.ibb.co/XS63TGR/coke.jpg"
+        
+      },
+      {
+        "id":"pro2",
+        "name": "Coca Cola Zero",
+        "brand": "Coke",
+        "category": "Drink",
+        "nutrition": {
+          "calories_per_serving": 0.2,
+          "protein": 0,
+          "carbs": 0,
+          "fat": 0
+        },
+        "image": "https://jgah.jayagrocer.com/cdn/shop/products/092006-1-1_e9193d71-3026-47f0-8a18-1984f8a8f078_800x.jpg?v=1673579309"
+      },
+      {
+        "id":"pro3",
+        "name": "EGB",
+        "brand": "Elephant house",
+        "category": "Drink",  
+        "nutrition": {
+          "calories_per_serving": 40.8,  
+          "protein": 0,               
+          "carbs": 10.2,                
+          "fat": 0                    
+        },
+        "image": "https://i.ibb.co/BGpS1BF/egb.jpg"
+      },
+      {
+        "id":"pro4",
+        "name": "Pepsi",
+        "brand": "Pespsi",
+        "category": "Drink",
+        "nutrition": {
+          "calories_per_serving": 43,
+          "protein": 0,
+          "carbs": 10.9,
+          "fat": 0
+        },
+        "image": "https://i.ibb.co/dWyYZvd/pepsi.jpg"
+      },
+      {
+        "id":"pro5",
+        "name": "Yei Orange",
+        "brand": "Yeti",
+        "category": "Drink",
+        "nutrition": {
+          "calories_per_serving": 42,
+          "protein": 0,
+          "carbs": 10.6,
+          "fat": 0
+        },
+        "image": "https://i.ibb.co/rm3FwDH/yeti.jpg"
+      },
+      {
+        "id":"pro6",
+        "name": "Real chocolate cream",
+        "brand": "Maliban",
+        "category": "Biscuit",
+        "nutrition": {
+          "calories_per_serving": 112,
+          "protein": 6.3,
+          "carbs": 72,
+          "fat": 9.7
+        },
+        "image": "https://i.ibb.co/2y2ky6G/chocobis.jpg"
+      },
+      {
+        "id":"pro7",
+        "name": "Gold Marie",
+        "brand": "Maliban",
+        "category": "Biscuit",
+        "nutrition": {
+          "calories_per_serving": 109,
+          "protein": 9,
+          "carbs": 75.1,
+          "fat": 6
+        },
+        "image": "https://i.ibb.co/4PBHvrP/goldmarie.jpg"
+      },
+      {
+        "id":"pro8",
+        "name": "Bran Cracker",
+        "brand": "Maliban",
+        "category": "Biscuit",
+        "nutrition": {
+          "calories_per_serving": 91,
+          "protein": 11.1,
+          "carbs": 70,
+          "fat": 1
+        },
+        
+        "image": "https://i.ibb.co/XYxsrCL/brancrack.jpg"
+      },
+      {
+        "id":"pro9",
+        "name": "Super cream cracker",
+        "brand": "Munchee",
+        "category": "Biscuit",
+        "nutrition": {
+          "calories_per_serving": 110,
+          "protein": 2.27,
+          "carbs": 14.81,
+          "fat": 1.2
+        },
+        "image": "https://i.ibb.co/NmSJnMX/cracker.jpg"
+      },
+      {
+        "id":"pro10",
+        "name": "Ginger biscuit",
+        "brand": "Munchee",
+        "category": "Biscuit",
+        "nutrition": {
+          "calories_per_serving": 110,
+          "protein": 1.43,
+          "carbs": 18.9,
+          "fat": 0.93
+        },
+        "image": "https://i.ibb.co/9brLGgt/ginger.jpg"
+      }
+      
+      
+    ]
+  }
+  

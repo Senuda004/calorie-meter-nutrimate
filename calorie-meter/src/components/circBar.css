@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /*Import poping*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap'); /*Import Ubuntu*/
+.CircBar {
+    display: flex;
+    flex-direction: column;
+}
+.contar{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+    display: flex;
+    height: auto;
+}
+/*Apply the Oswald font to your elements */
+.welcome {
+    color: rgb(15, 14, 14);
+    box-shadow:
+    0px 0px 6px 3px #FFC533, /* Bottom */
+    0px 0px 6px 3px #FFC533; /* Left */
+    margin-top: 200px;
+    background-color: #ffffff;
+    border-radius: 80px;
+    height: 140px;
+    font-size: 20px;
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 550;
+    margin-left: -190px;
+}
+
+.Wpic{
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-left: -100px;
+    z-index: 1; /* Ensures the background image stays behind the content */
+}
+
+hr {
+    border: none; /* Remove default border */
+    border-top: 1px solid #FFC533; /* Set border color and width */
+    margin: 20px 0; /* Adjust margin as needed */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.btn {
+    justify-content: space-between;
+    background-color: rgb(250, 250, 249);
+    color: black;
+    width: 200px;
+    height: 100px;
+    box-shadow: 0 0 10px #FFC533;
+    border-radius: 40px;
+    margin-left:70px; 
+    margin-top: 100px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease;
+    transition: all 0.8s ease;
+    font-weight: bold;
+    color:#555249;
+}
+/*
+.topHed {
+    background-image: url('https://i.ibb.co/6tRQXt2/s1.png');
+    background-size:contain;
+    margin-top: 10px;
+    background-repeat: no-repeat; /* Adjust as needed 
+}*/
+.topHed span{
+    margin-left: 5%;
+    padding-top: 10px;
+     font-weight: bold;
+     font-size: 24px; /* Adjust as needed */
+     white-space: pre;
+}
+
+.intro{
+    display: flex;
+    margin-top: -10px;
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 1200px) {
+    .topHed span {
+        font-size: 45px;
+    }
+}
+
+ /*Cal meter CSS*/
+
+.mainCal{
+   background-image: url('https://i.ibb.co/n6czcSX/s7.png');
+    margin-top: 250px;
+    background-size: contain; 
+    background-position: center;
+    background-repeat:no-repeat;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+}
+
+
+.inputContr{
+    width: 750px;
+    height: 350px;
+    margin-left: -150px;
+    border-radius: 40px;
+    margin-top: 100px;
+   background-color: #ffffff;
+}
+.history{
+    display: flex;
+}
+.history img{
+    width: 350px;
+    height: 350px;
+    margin-left: 30px;
+    
+}
+.hbtn{
+    background-color: black;
+    color: rgb(255, 251, 251);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    position: absolute; /* Position the element */
+    z-index: 3; /* Ensure it's above the background and other elements */
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    height: 40px;
+    margin-left: 450px;
+    
+}
+.hbtn:hover{
+
+    background-color: #575655;
+    color: rgb(255, 249, 249);
+}
+#addBtn{
+    margin-top: 70px;
+}
+#historyBtn{
+    margin-top: 170px;
+}
+#tipsBtn{
+    margin-top: 270px;
+}
+.userIndis{
+    background-color: #FFFF;
+    box-shadow:
+    0px 0px 6px 3px #FFC533, /* Bottom */
+    0px 0px 6px 3px #FFC533; /* Left */ 
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    margin-left: -420px;
+    margin-top: -400px;
+    z-index: 3; /* Ensure it's above the background and other elements */
+}
+
+.userIndis p {
+    color: #FFC533;
+    margin-left: 165px;
+    margin-top: 125px; /* Adjust vertical position */
+    font-weight: 800;
+    font-size: 25px;
+    position: absolute; /* Position the element */
+    z-index: 3; /* Ensure it's above the background and other elements */
+}
+.userIndis h2{
+    padding-left: 100px;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    padding-top: 80px;
+}
+.userInput {
+    width: 250px;
+    height: 60px;
+    background-color: rgb(240, 240, 243); /* Adjust circle color as needed */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: rgb(7, 2, 2);
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 200px;
+    transform: translate(-50%, -500px); /* Adjust vertical position */
+    border-radius: 50px;
+    font-weight: lighter;
+    border: none;
+    padding-left: 40px;
+    z-index: 2;
+}
+
+
+.userInput::placeholder {
+    font-weight:400; /* Make placeholder font bold */
+    color:#302f2c ;
+}
+
+#setGoalbtn {
+    margin-left: 130px;
+    margin-top: 180px;
+    background-color: black;
+    color: rgb(255, 251, 251);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    position: absolute; /* Position the element */
+    z-index: 3; /* Ensure it's above the background and other elements */
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 130px;
+    height: 40px;
+}
+
+#setGoalbtn:hover{
+    background-color: #575655;
+    color: rgb(255, 249, 249);
+}
+.setgoalContainer {
+    padding-top: 80px;   
+    padding-top: 8px;
+    font-size: 15px;
+    margin-left: 500px; 
+}
+.setgoalContainer p{
+    color:#FFC533;
+}
+
+.circBar{
+    margin-left: 40px;
+    padding-top:130px;
+    border-radius: 50px;
+    display: flex;
+    margin-top: -301px;
+}
+
+#count{
+    color:#FFC533;
+    font-weight: 800;
+    font-size: 12px;
+    margin-top: 12px;
+}
+.addDuctBtns {
+    background-color: #FFFF;
+    box-shadow:
+    0px 0px 6px 3px #FFC533, /* Bottom */
+    0px 0px 6px 3px #FFC533; /* Left */ 
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    margin-top: 0px;
+    margin-left: 380px;
+    z-index: 3; /* Ensure it's above the background and other elements */
+}
+#calInput{
+    width: 250px;
+    height: 60px;
+    background-color: rgb(240, 240, 243); /* Adjust circle color as needed */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: rgb(7, 2, 2);
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 100px;
+    transform: translate(-50%, -500px); /* Adjust vertical position */
+    border-radius: 50px;
+    font-weight: lighter;
+    border: none;
+    padding-left: 40px;
+    z-index: 2;
+
+}
+.addDuctBtns p{
+    padding-left: 20px;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    padding-top: 80px;
+}
+.cbtn1{   
+    background-color: rgb(23, 23, 2);
+    color: rgb(255, 251, 251);
+    width: 200px;
+    height: 40px;
+    margin-top: 125px;
+    border-radius: 30px;
+    padding: 0 15px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease;
+
+ }
+ .cbtn1:hover {
+    
+    background-color: #575655;
+    color: rgb(255, 249, 249);
+}
+.cbtn2{   
+    background-color: rgb(23, 23, 2);
+    color: rgb(255, 251, 251);
+    width: 200px;
+    height: 40px;
+    margin-top: 2px;
+    border-radius: 30px;
+    padding: 0 15px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease;
+
+ }
+ .cbtn2:hover {
+    
+    background-color: #575655;
+    color: rgb(255, 249, 249);
+}
+@media screen and (max-width: 768px) {
+    .resposiveCon{
+        width: 100%; 
+        
+    }
+    .contar{
+        display: flex;
+    }
+  
+    
+    .circBar {
+        margin-left: 10%;
+    }
+    .Wpic {
+        display: block;
+        width: 100%;
+
+    }
+    .intro {
+        width: 100%; /* Full width on small screens */
+        margin-left: 15px;
+        margin-top: 10px; }
+
+    .addDuctBtns {
+        margin-top: 20px;
+        margin-left: 1%;
+    }
+    .userIndis{
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+    
+
+    .inputContr {
+        width: 90%;
+        margin: 30px ;
+    }
+    .mainCal {
+        
+            background-size: cover; /* Cover the entire element */
+            width: 100%; /* Full width on small screens */
+            height: 100vh; /* Full viewport height on small screens */
+            margin-left: 0; /* Adjust as needed */
+            margin-top: 0; /* Adjust as needed */
+            margin: 200px auto;
+    }
+
+    .hbtn{
+        margin-top: 20px;
+        margin-left: 5%;
+
+    }
+    .history img{
+        display: block;
+        width: 100%;
+
+    }
+
+    .setgoalContainer {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .welcome {
+        margin-bottom: 5%;
+        
+    }
+
+    .topHed span {
+        font-size: 30px;
+    }
+
+    .intro {
+        flex-direction: column;
+        height: auto;
+    }
+    .displayFlex{
+        width: 100%;
+    }
+
+    .welcome img {
+        width: 100%;
+        
+    }
+
+    
+}

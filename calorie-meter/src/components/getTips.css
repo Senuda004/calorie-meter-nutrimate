@@ -1,0 +1,112 @@
+.main-contr{
+    margin-top: 18px;
+    margin-left: 17px;
+    
+}
+
+
+.tips-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 100px;
+    
+}
+.tip-card::before{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 90px;
+    transition: all 0.3s ease;
+    margin-left: -60px;
+    margin-top: 30px; 
+    
+   
+}
+.tip-card:first-child::before{
+    background-image: url('https://i.pinimg.com/564x/0c/7f/df/0c7fdf13405fbf376f1ac22c93047a88.jpg');
+    background-size: cover;
+}
+.tip-card:nth-child(2)::before {
+    background-image: url('https://i.ibb.co/VN3TgP0/protien-removebg-preview-1.png');
+    background-size: cover;
+    margin-left: -70px;
+}
+
+.tip-card:nth-child(3)::before {
+    background-image: url('https://i.ibb.co/Kzq1njG/junk-removebg-preview.png');
+    background-size: cover;
+}
+
+.tip-card:nth-child(4)::before {
+    background-image: url('https://wordpresscmsprodstor.blob.core.windows.net/wp-cms/2021/08/29.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -60px;
+}
+
+.tip-card:nth-child(5)::before {
+    background-image: url('https://i.ibb.co/ZGWhHP0/carbs-removebg-preview.png');
+    background-size: cover;
+    margin-left: -70px;
+}
+
+.tip-card:nth-child(6)::before {
+    background-image: url('https://i.pinimg.com/564x/83/4d/5e/834d5e3c3d29fa5baa8693351dc2cc16.jpg');
+    background-size: cover;
+}
+
+
+
+.tip-card:hover::before{
+    width: 96px;
+    height: 96px;
+    
+}
+.tip-card {
+    
+    margin: 10px;
+    padding-left: 80px;
+    border-radius: 80px;
+    width: 530px;
+    height: 150px;
+    margin-bottom: 50px;
+    margin-right: 130px; /* Adjust the margin-right to increase space between columns */
+    box-shadow: 0 0 10px #FFC533;
+    
+
+    cursor: pointer;
+}
+
+.tip-topic {
+    margin-top: -90px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(118, 57, 4);
+    
+}
+
+.tip-description {
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align:left;
+    color: rgb(48, 23, 2);
+    
+}
+.getTip{
+    margin-left: 80px;
+   margin-top: 60px;
+}
+
+.getTip h1{
+    font-weight: 700;
+    font-size: 25px;
+}
+.learn-more-link{
+    color: rgb(80, 80, 156);
+}
+.learn-more-link:hover{
+    font-size: 13px;
+}

@@ -1,0 +1,53 @@
+{
+    "tipsData":[
+        {
+            "id":"card1",
+            "topic":"Proper Exercise",
+            "image":"",
+            "description":"Stay fit and shed weight by incorporating simple exercises like skipping, walking, jogging, swimming, or yoga into your routine consistently.",
+            "Link":"https://www.webmd.com/fitness-exercise/ss/slideshow-exercises-weightloss"
+        
+        },
+        {
+            "id":"card2",
+            "topic":"Increase Protein Intake",
+            "image":"",
+            "description":"Protein builds muscle, aids fat reduction, and can convert excess fat into muscle. Boost protein intake and swap out carbs for protein-rich foods to support weight loss.",
+            "Link":"https://www.health.com/increase-protein-intake-7501392"
+
+        
+        },
+        {
+            "id":"card3",
+            "topic":"Avoid Junk Food",
+            "image":"",
+            "description":"Avoid junk foods like pizza, burgers, and sausages as they lack nutritional value, contribute to weight gain, and offer only excess fat.",
+            "Link":"https://njaes.rutgers.edu/sshw/message/message.php?p=Health&m=375"
+
+        
+        },
+        {
+            "id":"card4",
+            "topic":"Increase Fiber Intake",
+            "image":"",
+            "description":"Support weight loss by choosing foods high in soluble fibers, which reduce bad cholesterol, promote fullness, and prevent overeating.",
+            "Link":"https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/fiber/art-20043983"
+        
+        },
+        {
+            "id":"card5",
+            "topic":"Reduce the Intake of Carbs",
+            "description":"Reducing rice intake, high in calories and carbohydrates, is crucial for weight loss as it helps cut overall carb consumption.",
+            "Link":"https://www.healthline.com/nutrition/15-ways-to-eat-less-carbs"
+        
+        },
+        {
+            "id":"card6",
+            "topic":"Increase Water Intake",
+            "description":"Water is crucial for weight loss as it flushes toxins through urine. Aim for 4-5 liters daily to support your weight reduction efforts.",
+            "Link":"https://www.healthline.com/nutrition/7-health-benefits-of-water"
+        }
+    
+
+    ]
+}
