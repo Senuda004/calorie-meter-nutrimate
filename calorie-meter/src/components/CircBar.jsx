@@ -129,8 +129,7 @@ export default function CircBar() { // Destructure props here
                   <button  onClick={scrollTogetTip} id='tipsBtn' className='hbtn'>Get Tips</button>
                   </div>
             </div>
-              <p>c</p>
-              <p>u</p>
+              
           </div>           
       </div> 
       <hr/>

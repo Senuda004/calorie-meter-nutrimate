@@ -1,6 +1,6 @@
 .main-contr{
     margin-top: 18px;
-    margin-left: 30vh;
+    margin-left: 20px;
     
 }
 
@@ -11,7 +11,7 @@
     font-size: 12px;
     font-weight: 500;
     margin-top: 100px;
-    
+    margin-left: 98px;
 }
 .tip-card::before{
     content: "";
@@ -96,7 +96,7 @@
     
 }
 .getTip{
-    margin-left: 80px;
+    
    margin-top: 60px;
 }
 
