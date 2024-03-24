@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /*Import poping*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap'); /*Import Ubuntu*/
-.CircBar {
-    display: flex;
-    flex-direction: column;
-}
+
 .contar{
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
     display: flex;
@@ -16,21 +13,24 @@
     0px 0px 6px 3px #FFC533, /* Bottom */
     0px 0px 6px 3px #FFC533; /* Left */
     margin-top: 200px;
+    margin-bottom: 100px;
     background-color: #ffffff;
     border-radius: 80px;
-    height: 140px;
+    height: 120px;
+    width: 750px;
+    
     font-size: 20px;
-    padding-top: 40px;
-    text-align: center;
+    padding-left: 52px;
+    padding-top: 25px;
     font-weight: 550;
-    margin-left: -190px;
+    
 }
 
 .Wpic{
-    width: auto;
-    height: auto;
-    margin-top: 20px;
-    margin-left: -100px;
+    width: 300px;
+    height: 300px;
+    margin-top: 130px;
+    margin-right: 200px;
     z-index: 1; /* Ensures the background image stays behind the content */
 }
 
@@ -40,10 +40,10 @@ hr {
     margin: 20px 0; /* Adjust margin as needed */
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
 }
-
+/*
 .btn {
     justify-content: space-between;
-    background-color: rgb(250, 250, 249);
+    background-color: rgb(249, 249, 250);
     color: black;
     width: 200px;
     height: 100px;
@@ -58,7 +58,7 @@ hr {
     font-weight: bold;
     color:#555249;
 }
-/*
+
 .topHed {
     background-image: url('https://i.ibb.co/6tRQXt2/s1.png');
     background-size:contain;
