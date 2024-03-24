@@ -86,7 +86,7 @@ export default function CircBar() { // Destructure props here
     };
 
     // Send a POST request to your backend API to save the data to MongoDB
-    axios.post('http://localhost:5000/api/caldata', data)
+    axios.post('https://sdgp-cs14-back-end-calorie-meter.onrender.com/api/caldata', data)
       .then(response => {
         console.log('Data saved successfully:', response.data);
         alert('Daily goal added successfully ')
